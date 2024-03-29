@@ -167,4 +167,8 @@ class DoctrineDataCollector extends DataCollector
 
         return array($var, true);
     }
+
+    public function reset() {
+        // nothing
+    }
 }
